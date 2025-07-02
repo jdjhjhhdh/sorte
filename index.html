@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmação de Idade</title>
+    <style>
+        body {
+            background-color: #b3e5fc;
+            font-family: 'Arial Black', Gadget, sans-serif;
+            color: #0d47a1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            background-color: #ffffffdd;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        button {
+            background-color: #0d47a1;
+            color: white;
+            padding: 0.75rem 2rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background-color: #08306b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Você tem mais de 18 anos?</h1>
+        <button onclick="confirmAge()">SIM</button>
+    </div>
+
+    <script>
+        function confirmAge() {
+            window.location.href = "https://ssivasorte.vercel.app";
+        }
+    </script>
+</body>
+</html>
